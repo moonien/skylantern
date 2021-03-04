@@ -1,0 +1,89 @@
+body {
+font-size:13px;
+font-family:roboto;
+line-height:19px;
+text-align:justify;
+
+--admin:var(--accent);
+--mod:var(--accent-2);
+--member:var(--accent-3);
+
+--bei:#d86565;
+--luo:#e089ab;
+--xi:#a494b4;
+--nan:#c6a74b;
+--feng:#86a4cc;
+
+--baek:#a1ba73;
+--han:#4b8473;
+--lee:#cb7e51;
+
+--shinrinyoku:#627a44;
+--kintsugi:#b3a36d;
+--rakuyou:#9f6439;
+--ajisai:#6587a2;
+
+--indepent:#888;
+--guests:#888;
+
+
+
+--chili:#CC5151;
+--turmeric:#e69658;
+--ginger:#D6C159;
+--ginger:#DDC85D;
+--chives:#7CAA5D;
+--coriander:#478A8E;
+--basil:#9A86A5;
+--cinnamon:#EF819E;
+--cinnamon:#F090A8;
+}
+
+.guest,
+.mg-2 { --mg-color:var(--guests); }
+
+.admin,
+.mg-4 { --mg-color:var(--admin); }
+.mod,
+.mg-5 { --mg-color:var(--mod); }
+
+.member,
+.mg-6 { --mg-color:var(--member); }
+
+.chili,
+.mg-7 { --mg-color:var(--chili); }
+.turmeric,
+.mg-8 { --mg-color:var(--turmeric); }
+.ginger,
+.mg-9 { --mg-color:var(--ginger); }
+.chives,
+.mg-10 { --mg-color:var(--chives); }
+.coriander,
+.mg-11 { --mg-color:var(--coriander); }
+.basil,
+.mg-12 { --mg-color:var(--basil); }
+.cinnamon,
+.mg-21 { --mg-color:var(--cinnamon); }
+
+.inactive,
+.mg-20 { --mg-color:var(--inactive); }
+
+
+/** CLAN COLORS **/
+
+.baek { --mg-color:var(--baek); }
+.han { --mg-color:var(--han); }
+.lee { --mg-color:var(--lee); }
+
+.shinrinyoku { --mg-color:var(--shinrinyoku); }
+.kintsugi { --mg-color:var(--kintsugi); }
+.rakuyou { --mg-color:var(--rakuyou); }
+.ajisai { --mg-color:var(--ajisai); }
+
+.bei { --mg-color:var(--bei); }
+.luo { --mg-color:var(--luo); }
+.xi { --mg-color:var(--xi); }
+.nan { --mg-color:var(--nan); }
+.feng { --mg-color:var(--feng); }
+
+.independent { --mg-color:var(--independent); }
