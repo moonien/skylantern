@@ -1,0 +1,20 @@
+@import url('https://unpkg.com/ionicons@4.4.8/dist/css/ionicons.min.css');
+@import url('https://dl.dropbox.com/s/vpi3f9s7nhpe7v7/honeybee.css');
+
+.post-control-link a:before { content:"\e9b0"; }
+.post-control-edit a:before { content:"\ea08"; }
+.post-control-quote a:before { content:"\eca6"; }
+.post-control-delete a:before { content:"\e986"; }
+.post-control-report a:before { content:"\eb30"; }
+
+
+/** CLOUD RECESSES MODIFICATION **/
+#cr .mask-box,
+#cr .mask-cont blockquote { box-shadow:0px;border:1px solid var(--border); }
+#cr .mask-box h1 { padding:30px;color:var(--text);background:var(--bg-color);font:700 35px space mono;line-height:50px;text-align:left;text-transform:uppercase;padding-bottom:0px; }
+#cr .mask-box h1 span { border-bottom:3px solid var(--mg-color); }
+#cr .mask-cont h2 { margin:0px;margin-bottom:20px;margin-top:20px;background:var(--bg-color);color:var(--text);padding:0px;text-align:left; }
+#cr .mask-cont h2 span { background:var(--bg-color);font:700 22px space mono;line-height:20px;padding:0px;border-bottom:3px solid var(--mg-color); }
+#cr .mask-cont h3 { margin-top:20px;margin-bottom:10px;color:var(--mg-color);font:700 17px space mono;text-transform:uppercase; }
+#cr .mask-cont blockquote,
+#cr attention { box-shadow:0px; }
