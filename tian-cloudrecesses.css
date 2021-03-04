@@ -1,0 +1,8 @@
+@import url('https://unpkg.com/ionicons@4.4.8/dist/css/ionicons.min.css');
+@import url('https://dl.dropbox.com/s/vpi3f9s7nhpe7v7/honeybee.css');
+
+.post-control-link a:before { content:"\e9b0"; }
+.post-control-edit a:before { content:"\ea08"; }
+.post-control-quote a:before { content:"\eca6"; }
+.post-control-delete a:before { content:"\e986"; }
+.post-control-report a:before { content:"\eb30"; }

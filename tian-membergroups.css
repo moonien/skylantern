@@ -1,0 +1,201 @@
+body {
+font-size:13px;
+font-family:roboto;
+line-height:19px;
+text-align:justify;
+
+--admin:var(--accent);
+--mod:var(--accent-2);
+--member:var(--accent-3);
+
+--bei:#d86565;
+--luo:#e089ab;
+--xi:#a494b4;
+--nan:#c6a74b;
+--feng:#86a4cc;
+
+--baek:#a1ba73;
+--han:#4b8473;
+--lee:#cb7e51;
+
+--shinrinyoku:#627a44;
+--kintsugi:#b3a36d;
+--rakuyou:#9f6439;
+--ajisai:#6587a2;
+
+--indepent:#888;
+--guests:#888;
+
+
+
+--chili:#CC5151;
+--turmeric:#e69658;
+--ginger:#D6C159;
+--ginger:#DDC85D;
+--chives:#7CAA5D;
+--coriander:#478A8E;
+--basil:#9A86A5;
+--cinnamon:#EF819E;
+--cinnamon:#F090A8;
+--cinnamon:#F090A8;
+--cinnamon:#F090A8;
+--cinnamon:#F090A8;
+}
+
+.guest,
+.mg-2 { --mg-color:var(--guests); }
+
+.admin,
+.mg-4 { --mg-color:var(--admin); }
+.mod,
+.mg-5 { --mg-color:var(--mod); }
+
+.member,
+.mg-6 { --mg-color:var(--member); }
+
+.chili,
+.mg-7 { --mg-color:var(--chili); }
+.turmeric,
+.mg-8 { --mg-color:var(--turmeric); }
+.ginger,
+.mg-9 { --mg-color:var(--ginger); }
+.chives,
+.mg-10 { --mg-color:var(--chives); }
+.coriander,
+.mg-11 { --mg-color:var(--coriander); }
+.basil,
+.mg-12 { --mg-color:var(--basil); }
+.cinnamon,
+.mg-21 { --mg-color:var(--cinnamon); }
+
+.inactive,
+.mg-20 { --mg-color:var(--inactive); }
+
+
+/** CLAN COLORS **/
+
+.baek { --mg-color:var(--baek); }
+.han { --mg-color:var(--han); }
+.lee { --mg-color:var(--lee); }
+
+.shinrinyoku { --mg-color:var(--shinrinyoku); }
+.kintsugi { --mg-color:var(--kintsugi); }
+.rakuyou { --mg-color:var(--rakuyou); }
+.ajisai { --mg-color:var(--ajisai); }
+
+.bei { --mg-color:var(--bei); }
+.luo { --mg-color:var(--luo); }
+.xi { --mg-color:var(--xi); }
+.nan { --mg-color:var(--nan); }
+.feng { --mg-color:var(--feng); }
+
+.independent { --mg-color:var(--independent); }
+
+
+/** SITE ESSENTIAL CODES **/
+
+attention { background:var(--bg-app);padding:20px;box-shadow:0px 0px 5px -2px rgba(0,0,0,0.1); }
+
+attention { display:block;border:1px solid var(--red);min-height:36px; }
+attention:before { content:"\ea28";font:27px honeybee;float:left;line-height:36px;margin-right:10px;color:var(--red); }
+attention b { color:var(--red)!important; }
+
+
+
+
+/** THE APP(TM) **/
+
+#skylantern { width:540px;padding:40px;box-sizing:content-box;margin:0px auto;background:#fbfbfb; }
+#skylantern-2 { position:relative;clear:both;height:510px; }
+
+#skylantern-title { color:#fbfbfb;background:var(--mg-color);text-transform:uppercase;margin:0px -40px;margin-top:-40px;margin-bottom:10px;padding:20px 40px;font-size:0px; }
+#skylantern-title span { font:600 11px libre franklin;display:inline-block;margin-left:5px; }
+#skylantern-title span:first-child { display:block;font:700 20px libre franklin; }
+
+.skylantern-box { display:inline-block;font-size:0px;background:white;margin-top:490px; }
+.skylantern-box [type=radio] { display:none; }
+.skylantern-box label { display:inline-block;transition:0.8s;font:500 11px libre franklin;line-height:30px;text-align:center;text-transform:uppercase;width:90px;padding:0px;margin:0px;color:#777; }
+#skylantern sl { display:block;position:absolute;width:70px;border-bottom:2px solid var(--mg-color);transition:0.8s;z-index:127; }
+
+.skylantern-cont { width:540px;height:450px;overflow:hidden;margin-top:-490px; }
+.skylantern-cont-0 { font-size:0px;width:3800px;transition:0.8s; }
+.skylantern-cont-1,
+.skylantern-cont-2,
+.skylantern-cont-3,
+.skylantern-cont-4,
+.skylantern-cont-5,
+.skylantern-cont-6 { display:inline-block;width:540px;height:450px;overflow:hidden;transition:0.8s;font:13px roboto;line-height:18px;color:#555;text-align:justify;overflow:auto;margin-right:20px;box-sizing:border-box; }
+
+#skylantern label:hover,
+#skylantern input:checked+label { color:#111; }
+#skylantern #sl-1:checked+label ~ sl { margin-left:10px; }
+#skylantern #sl-2:checked+label ~ sl { margin-left:100px; }
+#skylantern #sl-3:checked+label ~ sl { margin-left:190px; }
+#skylantern #sl-4:checked+label ~ sl { margin-left:280px; }
+#skylantern #sl-5:checked+label ~ sl { margin-left:370px; }
+#skylantern #sl-6:checked+label ~ sl { margin-left:460px; }
+
+#skylantern #sl-1:checked+label ~ .skylantern-cont .skylantern-cont-0 { margin-left:0px; }
+#skylantern #sl-2:checked+label ~ .skylantern-cont .skylantern-cont-0 { margin-left:-560px; }
+#skylantern #sl-3:checked+label ~ .skylantern-cont .skylantern-cont-0 { margin-left:-1120px; }
+#skylantern #sl-4:checked+label ~ .skylantern-cont .skylantern-cont-0 { margin-left:-1680px; }
+#skylantern #sl-5:checked+label ~ .skylantern-cont .skylantern-cont-0 { margin-left:-2240px; }
+#skylantern #sl-6:checked+label ~ .skylantern-cont .skylantern-cont-0 { margin-left:-2800px; }
+
+.skylantern-cont-1 img { width:450px;height:450px;object-fit:cover; object-position:center;float:left; }
+.skylantern-cont-1 .skylantern-image,
+.skylantern-cont-6 .skylantern-image { height:430px;width:520px;background-size:cover;float:left;margin:10px;background-image:linear-gradient(to bottom, transparent, var(--mg-color)),var(--picture);background-blend-mode:soft-light;background-position:center; }
+
+.skylantern-cont-2,
+.skylantern-cont-3,
+.skylantern-cont-4,
+.skylantern-cont-5 { padding-right:20px;border:20px solid transparent; }
+
+.skylantern-cont .sl-heading { font:600 16px libre franklin;color:var(--mg-color);line-height:27px;margin-top:12px;text-align:left; }
+.skylantern-cont-3-2 .sl-heading:first-child,
+.skylantern-cont-4 .sl-heading:first-child,
+.skylantern-cont-5 .sl-heading:first-child,
+.skylantern-cont-6-2 .sl-heading:first-child { margin-top:0px!important; }
+
+.skylantern-cont-2-2 { height:390px;width:500px;display:flex;justify-content:space-between;align-content:space-between;align-items:center;flex-wrap:wrap; }
+.skylantern-cont-2 span { float:right;font:13px roboto;line-height:18px;color:#555;text-align:right;max-width:77%; }
+.skylantern-cont-2 div:nth-child(3) span,
+.skylantern-cont-2 div:nth-child(17) span { max-width:69%; }
+.skylantern-cont-2 div:nth-child(15) span { max-width:52%; }
+.skylantern-cont-2 div { flex-basis:100%;font-size:13px!important;line-height:18px!important;margin:0px!important; }
+.skylantern-cont-2 hr { width:100%;display:block;box-shadow:0px 0px 0px transparent;border:none;border-top:1px solid #eee; }
+
+.skylantern-cont-3 { width:550px; }
+.skylantern-cont-3-2 { height:400px;overflow:auto;padding-right:20px; }
+.skylantern-cont-3-2 .sl-heading { display:flex;width:100%;justify-content:space-between;align-items:flex-end;border-bottom:1px solid #eee;margin-bottom:5px; }
+.skylantern-cont-3-2 .sl-heading span { text-transform:uppercase;font-weight:lighter;font-size:14px;color:#888;text-align:right;max-width:68%;line-height:15px;padding-bottom:7px; }
+
+.skylantern-cont-5-1 { background:#f2f2f2;color:#333;padding:15px 20px; }
+
+/***
+.skylantern-cont-6 { padding-top:30px;padding-left:30px; }
+.skylantern-cont-6 .skylantern-image { width:200px;float:right;margin-top:-30px;margin-left:50px;height:430px; }
+***/
+.skylantern-cont-6 { padding-top:0px;padding-left:30px; }
+.skylantern-cont-6-1 { display:flex;flex-flow:row-reverse nowrap;align-items:flex-start;height:430px;padding:0px;justify-content:space-between; }
+.skylantern-cont-6 .skylantern-image { width:200px;height:430px;margin:0px; }
+.skylantern-cont-6-2 { padding-top:30px;width:calc(100% - 250px); }
+
+
+
+
+/** extra -- delete later **/
+
+#skylantern #sl-1-1:checked+label ~ sl { margin-left:10px; }
+#skylantern #sl-1-2:checked+label ~ sl { margin-left:100px; }
+#skylantern #sl-1-3:checked+label ~ sl { margin-left:190px; }
+#skylantern #sl-1-4:checked+label ~ sl { margin-left:280px; }
+#skylantern #sl-1-5:checked+label ~ sl { margin-left:370px; }
+#skylantern #sl-1-6:checked+label ~ sl { margin-left:460px; }
+
+#skylantern #sl-1-1:checked+label ~ .skylantern-cont .skylantern-cont-0 { margin-left:0px; }
+#skylantern #sl-1-2:checked+label ~ .skylantern-cont .skylantern-cont-0 { margin-left:-560px; }
+#skylantern #sl-1-3:checked+label ~ .skylantern-cont .skylantern-cont-0 { margin-left:-1120px; }
+#skylantern #sl-1-4:checked+label ~ .skylantern-cont .skylantern-cont-0 { margin-left:-1680px; }
+#skylantern #sl-1-5:checked+label ~ .skylantern-cont .skylantern-cont-0 { margin-left:-2240px; }
+#skylantern #sl-1-6:checked+label ~ .skylantern-cont .skylantern-cont-0 { margin-left:-2800px; }

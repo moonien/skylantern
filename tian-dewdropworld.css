@@ -1,0 +1,10 @@
+#navstrip a:before { content:"»"; }
+.category a[href*="?showforum=35"]:before,
+#header a[href*="?showforum=35"]:before,
+.category a[href*="?showforum=37"]:before,
+#header a[href*="?showforum=37"]:before { content:"\eb44";font-family:honeybee;font-style:normal;padding-right:5px; }
+
+body.Pages a[href="#wpnavi"]:before,
+body a[href="#slinks"]:before { content:"\e9d7"; }
+body.Pages a[href="#wpclose"]:before,
+body a[href="#slclose"]:before { content:"\ec8e"; }
