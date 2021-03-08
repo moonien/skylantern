@@ -1,4 +1,4 @@
-.mask-box { background:var(--bg-color);margin:30px auto;box-shadow:var(--boxing);max-width:600px; }
+.mask-box { background:var(--bg-color);margin:30px auto;box-shadow:var(--boxing);width:calc(100% - 10px);max-width:600px; }
 .mask-box h1 { padding:30px;color:var(--bg-color);background:var(--mg-color);font:60px wintersoul;line-height:50px;text-align:center;text-shadow:var(--texting);margin:0px; }
 .mask-cont { padding:30px; }
 .mask-cont h2 { margin:24px -30px;background:var(--mg-color);color:var(--mg-color);padding:20px 40px;text-align:center; }
