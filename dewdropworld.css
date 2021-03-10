@@ -1,3 +1,4 @@
+#navstrip a:before { content:"»"; }
 .category a[href*="?showforum=35"]:before,
 #header a[href*="?showforum=35"]:before,
 .category a[href*="?showforum=37"]:before,
