@@ -1,9 +1,4 @@
-body {
-font-size:13px;
-font-family:roboto;
-line-height:19px;
-text-align:justify;
-
+:root {
 --admin:var(--accent);
 --mod:var(--accent-2);
 --member:var(--accent-3);
