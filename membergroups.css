@@ -1,8 +1,4 @@
 :root {
---admin:var(--accent);
---mod:var(--accent-2);
---member:var(--accent-3);
-
 --bei:#d86565;
 --luo:#e089ab;
 --xi:#a494b4;
@@ -38,7 +34,7 @@
 .mg-2 { --mg-color:var(--guests); }
 
 .admin,
-.mg-4 { --mg-color:var(--admin); }
+.mg-4 { --mg-color:var(--admin)!important; }
 .mod,
 .mg-5 { --mg-color:var(--mod); }
 
