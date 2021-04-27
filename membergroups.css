@@ -18,23 +18,27 @@
 --guests:#888;
 
 
-
---chili:#CC5151;
+/*--chili:#CC5151;
 --turmeric:#e69658;
---ginger:#D6C159;
 --ginger:#DDC85D;
 --chives:#7CAA5D;
 --coriander:#478A8E;
+--cinnamon:#F090A8;*/
+  
+--chili:#D16868;
+--turmeric:#EAA46E;
+--ginger:#E0CE72;
+--chives:#84AF66;
+--coriander:#549599;
 --basil:#9A86A5;
---cinnamon:#EF819E;
---cinnamon:#F090A8;
+--cinnamon:#EFAABB;
 }
 
 .guest,
 .mg-2 { --mg-color:var(--guests); }
 
 .admin,
-.mg-4 { --mg-color:var(--admin)!important; }
+.mg-4 { --mg-color:var(--admin); }
 .mod,
 .mg-5 { --mg-color:var(--mod); }
 
