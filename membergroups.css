@@ -35,33 +35,33 @@
 }
 
 .guest,
-.mg-2 { --mg-color:var(--guests); }
+.mg-2 { --mg-color:var(--guests);--mg-rgb:var(--rgb-guests); }
 
 .admin,
-.mg-4 { --mg-color:var(--admin); }
+.mg-4 { --mg-color:var(--admin);--mg-rgb:var(--rgb-admin); }
 .mod,
-.mg-5 { --mg-color:var(--mod); }
+.mg-5 { --mg-color:var(--mod);--mg-rgb:var(--rgb-mod); }
 
 .member,
-.mg-6 { --mg-color:var(--member); }
+.mg-6 { --mg-color:var(--member);--mg-rgb:var(--rgb-member); }
 
 .chili,
-.mg-7 { --mg-color:var(--chili); }
+.mg-7 { --mg-color:var(--chili);--mg-rgb:var(--rgb-chili); }
 .turmeric,
-.mg-8 { --mg-color:var(--turmeric); }
+.mg-8 { --mg-color:var(--turmeric);--mg-rgb:var(--rgb-turmeric); }
 .ginger,
-.mg-9 { --mg-color:var(--ginger); }
+.mg-9 { --mg-color:var(--ginger);--mg-rgb:var(--rgb-ginger); }
 .chives,
-.mg-10 { --mg-color:var(--chives); }
+.mg-10 { --mg-color:var(--chives);--mg-rgb:var(--rgb-chives); }
 .coriander,
-.mg-11 { --mg-color:var(--coriander); }
+.mg-11 { --mg-color:var(--coriander);--mg-rgb:var(--rgb-coriander); }
 .basil,
-.mg-12 { --mg-color:var(--basil); }
+.mg-12 { --mg-color:var(--basil);--mg-rgb:var(--rgb-basil); }
 .cinnamon,
-.mg-21 { --mg-color:var(--cinnamon); }
+.mg-21 { --mg-color:var(--cinnamon);--mg-rgb:var(--rgb-cinnamon); }
 
 .inactive,
-.mg-20 { --mg-color:var(--inactive); }
+.mg-20 { --mg-color:var(--inactive);--mg-rgb:var(--rgb-inactive); }
 
 
 /** CLAN COLORS **/
