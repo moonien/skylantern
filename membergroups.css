@@ -32,6 +32,17 @@
 --coriander:#549599;
 --basil:#9A86A5;
 --cinnamon:#EFAABB;
+
+--rgb-guests: 136,136,136;
+--rgb-inactive: 136,136,136;
+
+--rgb-chili: 209,104,104;
+--rgb-turmeric: 234,164,110;
+--rgb-ginger: 224,206,114;
+--rgb-chives: 132,175,102;
+--rgb-coriander: 84,149,153;
+--rgb-basil: 154,134,165;
+--rgb-cinnamon: 239,170,187;
 }
 
 .guest,
