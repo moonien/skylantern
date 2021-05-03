@@ -1,4 +1,4 @@
-.mask-box { background:var(--bg-app);margin:30px auto;box-shadow:var(--boxing);width:100%;max-width:600px; }
+.mask-box { background:var(--bg-app);margin:30px auto;width:100%;max-width:600px; }
 .mask-box h1 { padding:30px;color:var(--bg-color);background:var(--mg-color);font:60px wintersoul;line-height:50px;text-align:center;text-shadow:var(--texting);margin:0px; }
 .mask-cont { padding:30px; }
 .mask-cont h2 { margin:24px -30px;background:var(--mg-color);color:var(--mg-color);padding:20px 40px;text-align:center; }
@@ -30,7 +30,7 @@ attention b { color:var(--red)!important; }
 
 
 /** MEMBER DIRECTORY **/
-.mask-directory { max-width:420px;width:100%;margin:40px auto;box-sizing:border-box;background:var(--bg-color);box-shadow:var(--boxing); }
+.mask-directory { max-width:420px;width:100%;margin:40px auto;box-sizing:border-box;background:var(--bg-color); }
 .mask-directory h1 { color:var(--text-white);background:var(--mg-color);margin:0px;padding:20px;font-size:0px;text-transform:uppercase;text-align:left; }
 .mask-directory h1 font { display:inline-block;font:700 30px libre franklin;line-height:30px;margin:2px; }
 .mask-directory h1 span { display:inline-block;font:700 11px quicksand;padding:3px;margin:2px;background:var(--text-white);color:var(--mg-color); }
@@ -63,7 +63,7 @@ attention b { color:var(--red)!important; }
 
 
 /** THE APP(TM) **/
-.skyapp { box-shadow:var(--boxing);max-width:580px;width:100%;box-sizing:border-box;margin:30px auto;font:14px roboto;line-height:19px;background:var(--bg-app);color:var(--text); }
+.skyapp { max-width:580px;width:100%;box-sizing:border-box;margin:30px auto;font:14px roboto;line-height:19px;background:var(--bg-app);color:var(--text); }
 
 .skyapp-header { background:var(--mg-color);color:var(--text-white);text-align:center;padding:20px;text-align:left;font:600 14px libre franklin;text-transform:uppercase; }
 .skyapp-header font { display:block;width:100%;font-size:20px; }
