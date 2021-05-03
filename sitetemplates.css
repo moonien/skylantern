@@ -63,7 +63,7 @@ attention b { color:var(--red)!important; }
 
 
 /** THE APP(TM) **/
-.skyapp { max-width:580px;width:100%;box-sizing:border-box;margin:30px auto;font:14px roboto;line-height:19px;background:var(--bg-app);color:var(--text); }
+.skyapp { box-shadow:var(--boxing);max-width:580px;width:100%;box-sizing:border-box;margin:30px auto;font:14px roboto;line-height:19px;background:var(--bg-app);color:var(--text); }
 
 .skyapp-header { background:var(--mg-color);color:var(--text-white);text-align:center;padding:20px;text-align:left;font:600 14px libre franklin;text-transform:uppercase; }
 .skyapp-header font { display:block;width:100%;font-size:20px; }
