@@ -20,7 +20,7 @@ attention b { color:var(--red)!important; }
 content { display:flex;width:100%;align-items:center;box-sizing:border-box;padding:20px; }
 content span { width:30%;font-size:40px;color:var(--red);text-align:right;padding-right:20px;box-sizing:border-box; }
 content warning { width:70%;text-align:left; }
-content warning b { color:var(--red); }
+content warning b { color:var(--red);display:block; }
 .skyapp-content content { height:282px; }
 
 
