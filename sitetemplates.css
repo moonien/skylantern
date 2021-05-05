@@ -17,6 +17,12 @@ attention:before { content:"\eaae";font:27px cappuccicons;float:left;line-height
 attention b { color:var(--red)!important; }
 .mask-cont blockquote { border:1px solid var(--mg-color); }
 
+content { display:flex;width:100%;align-items:center;box-sizing:border-box;padding:20px; }
+content span { width:30%;font-size:40px;color:var(--red);text-align:right;padding-right:20px;box-sizing:border-box; }
+content warning { width:70%;text-align:left; }
+content warning b { color:var(--red); }
+.skyapp-content content { height:282px; }
+
 
 /** FACE CLAIM / DOUBLE COLUMN CLAIMS **/
 .mask-claims { display:flex;flex-flow:row wrap;align-items:center;justify-content:space-between; }
@@ -95,6 +101,15 @@ attention b { color:var(--red)!important; }
 .skyapp-player span { display:block;font-size:13px; }
 .skyapp-player cw { display:block;color:#222;font:13px roboto;line-height:19px;background:#fcfcfc;text-transform:none;text-align:justify;padding:10px;margin:0px -10px;margin-top:10px; }
 .skyapp-player cw:before { content:"PLEASE WARN FOR: ";font-weight:bold;color:var(--red); }
+
+.skyapp-content h4,
+.skyapp-content h5,
+.skyapp-content h6,
+.skyapp-content h7 { display:block;margin:0px;margin-bottom:17px;padding:10px 20px;text-transform:uppercase; }
+.skyapp-content h4 { border-bottom:1px solid var(--text-white);font:600 18px libre franklin;color:var(--mg-color); }
+.skyapp-content h5 { margin:0px;font:600 16px libre franklin;color:var(--mg-color);text-align:center; }
+.skyapp-content h6 { border:1px solid rgba(var(--mg-rgb),0.5);background:rgba(var(--mg-rgb),0.1);font:700 12px roboto; }
+.skyapp-content h7 { border-bottom:1px solid var(--mg-color);font:700 12px roboto; }
 
 
 /** SHIPPER REPLY **/
