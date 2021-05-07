@@ -101,7 +101,7 @@ content warning b { color:var(--red);display:block; }
 .skyapp-content { padding:0px 30px;border-top:30px solid transparent;border-bottom:30px solid transparent;overflow:auto;max-height:282px; }
 .skyapp p:last-child { margin-bottom:0px; }
 
-.skyapp-box { margin:30px;padding:20px;background:var(--bg-dark); }
+.skyapp-box { margin:30px;padding:20px;background:var(--bg-color); }
 .skyapp-plot { margin:20px 0px;margin-left:20px;padding:0px 20px;border-left:3px solid var(--mg-color); }
 .skyapp-plot .skyapp-sub { margin:10px 0px; }
 
