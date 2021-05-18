@@ -1,48 +1,26 @@
 :root {
---bei:#d86565;
---luo:#e089ab;
---xi:#a494b4;
---nan:#c6a74b;
---feng:#86a4cc;
-
---baek:#a1ba73;
---han:#4b8473;
---lee:#cb7e51;
-
---shinrinyoku:#627a44;
---kintsugi:#b3a36d;
---rakuyou:#9f6439;
---ajisai:#6587a2;
-
---indepent:#888;
 --guests:#888;
-
-
-/*--chili:#CC5151;
---turmeric:#e69658;
---ginger:#DDC85D;
---chives:#7CAA5D;
---coriander:#478A8E;
---cinnamon:#F090A8;*/
+--inactive:#888;
   
 --chili:#D16868;
 --turmeric:#EAA46E;
---ginger:#E0CE72;
+--ginger:#D1B857;
 --chives:#84AF66;
 --coriander:#549599;
 --basil:#9A86A5;
---cinnamon:#EFAABB;
+--cinnamon:#D1A0AC;
+
 
 --rgb-guests: 136,136,136;
 --rgb-inactive: 136,136,136;
 
 --rgb-chili: 209,104,104;
 --rgb-turmeric: 234,164,110;
---rgb-ginger: 224,206,114;
+--rgb-ginger: 209,184,87;
 --rgb-chives: 132,175,102;
 --rgb-coriander: 84,149,153;
 --rgb-basil: 154,134,165;
---rgb-cinnamon: 239,170,187;
+--rgb-cinnamon: 209,160,172;
 }
 
 .guest,
@@ -73,23 +51,3 @@
 
 .inactive,
 .mg-20 { --mg-color:var(--inactive);--mg-rgb:var(--rgb-inactive); }
-
-
-/** CLAN COLORS **/
-
-.baek { --mg-color:var(--baek); }
-.han { --mg-color:var(--han); }
-.lee { --mg-color:var(--lee); }
-
-.shinrinyoku { --mg-color:var(--shinrinyoku); }
-.kintsugi { --mg-color:var(--kintsugi); }
-.rakuyou { --mg-color:var(--rakuyou); }
-.ajisai { --mg-color:var(--ajisai); }
-
-.bei { --mg-color:var(--bei); }
-.luo { --mg-color:var(--luo); }
-.xi { --mg-color:var(--xi); }
-.nan { --mg-color:var(--nan); }
-.feng { --mg-color:var(--feng); }
-
-.independent { --mg-color:var(--independent); }
