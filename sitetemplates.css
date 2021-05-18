@@ -24,24 +24,13 @@ content warning b { color:var(--red);display:block; }
 .skyapp-content content { height:282px; }
 
 
-/** FACE CLAIM / DOUBLE COLUMN CLAIMS **/
-.mask-claims { display:flex;flex-flow:row wrap;align-items:center;justify-content:space-between; }
-.mask-claims div { flex-basis:50%;box-sizing:border-box;padding:0px 15px;text-align:center; }
-/*.mask-claims div:nth-child(odd) { text-align:right;padding-left:0px; }
-.mask-claims div:nth-child(even) { text-align:left;padding-right:0px; }*/
-.mask-claims-head { margin:20px 0px; }
-.mask-claims-head span { font:700 18px quicksand;color:var(--bg-color);background:var(--mg-color);text-transform:uppercase;padding:5px; }
-.mask-claims-cont { display:flex;flex-direction:column;max-height:350px;overflow:auto;margin-top:10px; }
-.mask-claims-cont a { display:block;font:400 12px roboto;line-height:25px;text-transform:uppercase; }
-
-
 /** CHECK-IN **/
 .mask-check { display:flex;flex-flow:row wrap;align-items:stretch;justify-content:space-between; }
 .mask-check span { width:50%;min-width:230px;flex-grow:1;box-sizing:border-box;padding:0px 15px;text-align:center;display:flex;flex-flow:column wrap;align-items:center; }
 .mask-check-head { margin:20px 0px;font:700 18px quicksand;color:var(--bg-color);background:var(--mg-color);text-transform:uppercase;padding:5px; }
 .mask-check-cont { flex-grow:1;display:flex;max-height:350px;align-items:center;overflow:auto;margin-top:10px;width:100%;align-content:center;justify-content:center; }
 .mask-check-cont inner { display:flex;flex-direction:column; }
-.mask-check-cont inner a { font:400 12px roboto;line-height:25px;text-transform:uppercase; }
+.mask-check-cont inner a { font:400 12px roboto;line-height:25px;text-transform:uppercase;color:var(--mg-color); }
 
 
 /** MEMBER DIRECTORY **/
