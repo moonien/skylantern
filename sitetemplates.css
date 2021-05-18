@@ -29,7 +29,7 @@ content warning b { color:var(--red);display:block; }
 .mask-check span { width:50%;min-width:230px;flex-grow:1;box-sizing:border-box;padding:0px 15px;text-align:center;display:flex;flex-flow:column wrap;align-items:center; }
 .mask-check-head { margin:20px 0px;font:700 18px quicksand;color:var(--bg-color);background:var(--mg-color);text-transform:uppercase;padding:5px; }
 .mask-check-cont { flex-grow:1;display:flex;max-height:350px;align-items:center;overflow:auto;margin-top:10px;width:100%;align-content:center;justify-content:center; }
-.mask-check-cont inner { display:flex;flex-direction:column; }
+.mask-check-cont inner { display:flex;flex-flow:column wrap;align-items:center;align-content:center;justify-content:center; }
 .mask-check-cont inner a { font:400 12px roboto;line-height:25px;text-transform:uppercase;color:var(--mg-color); }
 
 
