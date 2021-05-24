@@ -44,8 +44,9 @@ content warning b { color:var(--red);display:block; }
 .mask-directory-desc img { float:right;width:90px;height:90px;object-fit:cover;border:10px solid var(--bg-color);margin:-25px -25px 5px 15px; }
 .mask-directory-characters { padding:0px 30px;padding-bottom:30px; }
 .mask-directory-characters block { display:flex;width:100%;box-sizing:border-box;margin-top:10px;background:var(--bg-light);border:1px solid var(--bg-dark); }
-.mask-directory-characters block span { flex-basis:87%;box-sizing:border-box;padding:8px;font-size:12px;line-height:13px; }
+.mask-directory-characters block span { flex-basis:87%;box-sizing:border-box;padding:8px;font-size:12px;line-height:13px;text-align:left; }
 .mask-directory-characters block span a { font:700 17px quicksand;text-transform:uppercase;color:var(--mg-color); }
+.mask-directory-characters block span div { text-align:justify; }
 .mask-directory-characters block span:first-child { flex-basis:13%;background:var(--mg-color);color:var(--text-white);font-size:25px;text-align:center;display:flex;align-items:center;justify-content:center; }
 
 .mask-limits { padding:30px;padding-top:20px;--mg-color:var(--red); }
