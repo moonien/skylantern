@@ -140,7 +140,7 @@ content warning b { color:var(--red);display:block; }
 .news-requests-large span { background:var(--image) center;background-size:cover;display:block;height:120px; }
 .news-requests-large a { height:0px;display:flex;align-items:center;font:600 16px libre franklin;text-transform:uppercase;text-shadow:var(--texting),var(--texting),var(--texting);color:var(--text-white)!important; }
 .news-requests-large a:before,
-.news-requests-large a:after { content:"";flex-grow:1;border-top:3px solid var(--mg-color); }
+.news-requests-large a:after { content:"";flex-grow:1;border-top:3px solid var(--mg-color);min-width:20px; }
 .news-requests-large a:before { margin-right:5px; }
 .news-requests-large a:after { margin-left:5px; }
 .news-requests-large div { padding:0px 15px;border-top:15px solid transparent;border-bottom:15px solid transparent;height:76px;overflow:auto; }
