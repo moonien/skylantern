@@ -4,6 +4,7 @@
 .mask-cont h2 { margin:24px -30px;background:var(--mg-color);color:var(--mg-color);padding:20px 40px;text-align:center; }
 .mask-cont h2 span { background:var(--bg-color);display:inline-block;font:700 13px quicksand;line-height:20px;padding:5px 10px;text-transform:uppercase; }
 .mask-cont h3 { margin:0px;padding:0px;margin-top:20px;margin-bottom:10px;color:var(--mg-color);font:600 17px libre franklin;text-transform:uppercase;text-align:left; }
+.mask-cont h4 { margin:5px 0px;padding:0px;margin-bottom:20px; }
 .mask-cont b,
 .mask-cont i,
 .mask-cont a,
