@@ -153,7 +153,7 @@ content warning b { color:var(--red);display:block; }
 .platonic { --icon:"\ec9b";--word:"platonic"; }
 .romantic { --icon:"\eb03";--word:"romantic"; }
 .misc { --icon:"\eb19";--word:"misc"; }
-.none { --icon:"\ea04";--word:"none"; }
+.none { --icon:"\e975";--word:"none"; }
 
 @media only screen and (max-width:549px) {
 .news-requests-small { width:calc(50% - 14px); }
