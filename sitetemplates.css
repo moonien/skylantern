@@ -168,8 +168,8 @@ content warning b:first-child { color:var(--red);display:block; }
 .runon-bar div:before { content:"\ea68";font:20px cappuccicons;position:absolute;background:var(--mg-color);color:var(--bg-app);border-radius:50px 50px 3px 50px;height:30px;width:30px;display:flex;align-items:center;justify-content:center;box-sizing:border-box;padding-left:3px;padding-bottom:2px;transform:rotate(-45deg);transform:origin:0% 0%;margin-top:-15px;margin-left:-35px; }
 .runon-goal { margin-left:20px;width:100%;display:flex;flex-flow:column wrap; }
 .runon-goal div { flex-grow:1;min-height:70px;padding-left:40px;margin:0px;margin-top:-6px; }
-.runon-goal div b { display:flex;align-items:center; }
-.runon-goal div b:before { content:"";border-top:3px solid var(--mg-color);width:30px;margin-right:10px;margin-left:-40px;border-radius:5px; }
+.runon-goal div b { display:flex;align-items:center;text-align:left; }
+.runon-goal div b:before { content:"";border-top:3px solid var(--mg-color);min-width:25px;margin-right:10px;margin-left:-40px;border-radius:5px; }
 
 
 /*** BACKGROUND CHANGES ***/
