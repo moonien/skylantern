@@ -170,6 +170,7 @@ content warning b:first-child { color:var(--red);display:block; }
 .runon-goal div { flex-grow:1;min-height:70px;box-sizing:border-box;padding-bottom:20px;padding-left:35px;margin:0px;margin-top:-6px; }
 .runon-goal div b { display:flex;align-items:center;text-align:left; }
 .runon-goal div b:before { content:"";border-top:3px solid var(--mg-color);min-width:25px;width:25px;margin-right:10px;margin-left:-35px;border-radius:5px; }
+.runon-goal div a[href="LINK"] { color:var(--text);cursor:auto; }
 
 
 /*** BACKGROUND CHANGES ***/
