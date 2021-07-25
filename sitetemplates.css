@@ -10,9 +10,11 @@
 .mask-cont a,
 .mask-claims a:hover,
 .mask-directory a:hover,
-.headertable-panel-cont b { color:var(--mg-color); }
+.headertable-panel-cont b,
+.memberlist-text b { color:var(--mg-color); }
 .mask-cont b,
-.headertable-panel-cont b { font-family:quicksand;font-size:15px;line-height:16px; }
+.headertable-panel-cont b,
+.memberlist-text b { font-family:quicksand;font-size:15px;line-height:16px; }
 .mask-cont p { padding:0px;margin:0px;margin-top:15px; }
 .mask-cont blockquote,
 attention { background:var(--bg-app);padding:20px;margin:15px 10px;box-shadow:0px 0px 5px -2px rgba(0,0,0,0.1);display:block;border:1px solid var(--mg-color);min-height:36px; }
