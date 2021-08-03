@@ -91,7 +91,7 @@ content warning b:first-child { color:var(--red);display:block; }
 }
 
 .skyapp-divider { background:var(--mg-color);color:var(--text-white);padding:20px;font:600 18px libre franklin;text-align:center;text-transform:uppercase; }
-.skyapp-sub { margin-left:20px;font:700 16px libre franklin;color:var(--mg-color);text-transform:uppercase; }
+.skyapp-sub { margin:0px 20px;text-align:left;font:700 16px libre franklin;color:var(--mg-color);text-transform:uppercase; }
 
 .skyapp-content { padding:0px 30px;border-top:30px solid transparent;border-bottom:30px solid transparent;overflow:auto;max-height:282px; }
 .skyapp p:last-child { margin-bottom:0px; }
@@ -110,7 +110,7 @@ content warning b:first-child { color:var(--red);display:block; }
 .skyapp-content h5,
 .skyapp-content h6,
 .skyapp-content h7 { display:block;margin:0px;margin-bottom:17px;padding:10px 20px;text-transform:uppercase; }
-.skyapp-content h4 { border-bottom:1px solid var(--text-white);font:600 18px libre franklin;color:var(--mg-color); }
+.skyapp-content h4 { border-bottom:1px solid var(--text-white);font:600 18px libre franklin;color:var(--mg-color);text-align:left; }
 .skyapp-content h5 { margin:0px;font:600 16px libre franklin;color:var(--mg-color);text-align:center; }
 .skyapp-content h6 { border:1px solid rgba(var(--mg-rgb),0.5);background:rgba(var(--mg-rgb),0.1);font:700 12px roboto; }
 .skyapp-content h7 { border-bottom:1px solid var(--mg-color);font:700 12px roboto; }
