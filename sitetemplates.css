@@ -27,6 +27,8 @@ content warning { width:70%;text-align:left; }
 content warning b:first-child { color:var(--red);display:block; }
 .skyapp-content content { height:282px; }
 
+lightblock { background:var(--bg-light);padding:10px;margin:15px 10px;box-shadow:0px 0px 5px -2px rgb(0 0 0 / 10%);display:block;border-radius:10px;border:1px solid var(--mg-color); }
+
 
 /** CHECK-IN **/
 .mask-check { display:flex;flex-flow:row wrap;align-items:stretch;justify-content:space-between; }
