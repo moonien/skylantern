@@ -1407,7 +1407,7 @@ z-index: 6;
 
 
 
-.sk-todo { white-space:pre-line;padding:15px 25px;padding-bottom:1px; }
+.sk-todo { white-space:pre-line;padding:0px 10px;margin-bottom:-30px;margin-top:-15px; }
 .sk-todo div { margin-top:-12px;display:flex;align-items:flex-start; }
 .sk-todo div:before{ display:flex;align-items:center;font:18px cappuccicons;float:left;line-height:19px;min-width:19px;text-align:right;margin-right:7px; }
 .sk-todo div.sk-todo-done:before { content:"\e9d9";color:var(--mg-color); }
