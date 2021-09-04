@@ -34,7 +34,7 @@ lightblock { background:var(--bg-light);padding:10px;margin:15px 10px;box-shadow
 .mask-check { display:flex;flex-flow:row wrap;align-items:stretch;justify-content:space-between; }
 .mask-check span { width:50%;min-width:230px;flex-grow:1;box-sizing:border-box;padding:0px 15px;text-align:center;display:flex;flex-flow:column wrap;align-items:center; }
 .mask-check-head { margin:20px 0px;font:700 18px quicksand;color:var(--bg-color);background:var(--mg-color);text-transform:uppercase;padding:5px; }
-.mask-check-cont { flex-grow:1;display:block;max-height:350px;overflow:auto;margin-top:10px;text-align:center; }
+.mask-check-cont { flex-grow:1;width:100%;display:block;max-height:350px;overflow:auto;text-align:center; }
 .mask-check-cont a { display:flex;margin:0px auto;width:max-content;font:400 12px roboto;line-height:25px;text-transform:uppercase;color:var(--mg-color); }
 
 
