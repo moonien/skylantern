@@ -26,7 +26,12 @@
 #guest,
 .guest,
 .mg-2,
-guest { --mg-color:var(--guests);--mg-rgb:var(--rgb-guests);--icon:"\ea01";--icon-o:"\ea04"; }
+guest { --mg-color:var(--guests);--mg-rgb:var(--rgb-guests); }
+#guest,
+.guest,
+.mg-2,
+guest,
+.mg-3 { --icon:"\ea01";--icon-o:"\ea04"; }
 
 #admin,
 .admin,
