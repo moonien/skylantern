@@ -87,3 +87,14 @@ bcinnamon { --mg-color:var(--cinnamon);--mg-rgb:var(--rgb-cinnamon);--icon:"\e96
 .inactive,
 .mg-20,
 inactive { --mg-color:var(--inactive);--mg-rgb:var(--rgb-inactive);--icon:"\eb69";--icon-o:"\eb6a"; }
+
+
+
+
+.runon-bar div:before { content:"ea68"; }
+
+.familial { --icon:"ecdc";--word:"familial"; }
+.platonic { --icon:"ec9b";--word:"platonic"; }
+.romantic { --icon:"eb03";--word:"romantic"; }
+.misc { --icon:"eb19";--word:"misc"; }
+.none { --icon:"e975";--word:"none"; }
