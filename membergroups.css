@@ -23,6 +23,8 @@
 --rgb-cinnamon: 209,160,172;
 }
 
+attention:before { content:"eaae"; }
+
 #guest,
 .guest,
 .mg-2,
