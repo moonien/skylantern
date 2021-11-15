@@ -50,7 +50,7 @@ function createTrackerElements (params, Current_Script) {
 
     Open_Thread_Wrapper.append(`<p>active <span class="cp cp-refresh"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
     Alt_Thread_Wrapper.append(`<p>${params.altSectionTitle || "communications"}</p>`);
-    Closed_Thread_Wrapper.append(`<p>completed</p>`);
+    Closed_Thread_Wrapper.append(`<p>archived</p>`);
 
     $(Open_Thread_Wrapper).append(params.thisTracker);
     $(Alt_Thread_Wrapper).append(params.thisAltTracker);
@@ -79,13 +79,13 @@ console.log("tracker num ", trackernum)
         params.lockedMacroIdentifier = "[title*=Closed],[class*=lock],[class*=closed]";
     }
     if (!params.archiveForumNames) {
-        params.archiveForumNames = ["completed","threads"];
+        params.archiveForumNames = ["completed","threads","communications"];
     }
     if (!params.altForumNames) {
         params.altForumNames = ["communication"];
     }
     if (!params.ignoreForumNames) {
-        params.ignoreForumNames = ["staff board", "wip", "trashbin", "staff archives", "bansa!", "bulletin board", "advertisements", "first links", "link backs & accepted", "handbook", "announcements", "past announcements", "moderation", "site codes", "requests", "platonic", "familial", "romantic", "miscellanous", "application", "citizens", "downtown", "outskirts", "other residence", "development", "ships", "haru", "izzy", "mish", "rose", "yuen", "#rainbow", "general chat", "games", "resources", "archives", "past events", "applications", "social media", "communications", "requests", "spooky event"];
+        params.ignoreForumNames = ["staff board", "wip", "trashbin", "staff archives", "bansa!", "bulletin board", "advertisements", "first links", "link backs & accepted", "handbook", "announcements", "past announcements", "moderation", "site codes", "requests", "platonic", "familial", "romantic", "miscellanous", "application", "citizens", "downtown", "outskirts", "other residence", "development", "ships", "haru", "izzy", "mish", "rose", "yuen", "#rainbow", "general chat", "games", "resources", "archives", "past events", "applications", "social media", "requests", "spooky event"];
     }
     if (!params.floodControl) {
         params.floodControl = 5;
