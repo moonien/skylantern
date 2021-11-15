@@ -79,13 +79,13 @@ console.log("tracker num ", trackernum)
         params.lockedMacroIdentifier = "[title*=Closed],[class*=lock],[class*=closed]";
     }
     if (!params.archiveForumNames) {
-        params.archiveForumNames = ["completed"];
+        params.archiveForumNames = ["completed","threads"];
     }
     if (!params.altForumNames) {
         params.altForumNames = ["communication"];
     }
     if (!params.ignoreForumNames) {
-        params.ignoreForumNames = ["staff board", "wip", "trashbin", "staff archives", "bansa!", "bulletin board", "advertisements", "first links", "link backs & accepted", "handbook", "announcements", "past announcements", "moderation", "site codes", "requests", "platonic", "familial", "romantic", "miscellanous", "application", "citizens", "downtown", "outskirts", "other residence", "development", "ships", "haru", "izzy", "mish", "rose", "yuen", "#rainbow", "general chat", "games", "resources", "archives", "past events", "applications", "social media", "communications", "threads", "requests", "spooky event"];
+        params.ignoreForumNames = ["staff board", "wip", "trashbin", "staff archives", "bansa!", "bulletin board", "advertisements", "first links", "link backs & accepted", "handbook", "announcements", "past announcements", "moderation", "site codes", "requests", "platonic", "familial", "romantic", "miscellanous", "application", "citizens", "downtown", "outskirts", "other residence", "development", "ships", "haru", "izzy", "mish", "rose", "yuen", "#rainbow", "general chat", "games", "resources", "archives", "past events", "applications", "social media", "communications", "requests", "spooky event"];
     }
     if (!params.floodControl) {
         params.floodControl = 5;
