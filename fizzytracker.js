@@ -3,7 +3,6 @@
 // THE SCRIPT IS ONLY HOSTED BY YUEN HERE WITH SPECIFIC MODIFICATIONS PERTAINING TO SKY LANTERN (https://skylantern.jcink.net/)
 
 document.write(`<style>
-@import url('https://unpkg.com/phosphor-icons@1.4.2/src/css/icons.css');
 .fizztrackerwrap, .fizzhistorywrap {position: relative; max-width: 500px; margin: 10px auto; padding: 1px 15px;}
 .fizztrackerwrap p, .fizzhistorywrap p {
     position: relative;
@@ -53,7 +52,7 @@ function createTrackerElements (params, Current_Script) {
     params.thisAltTracker = $(`<div id="alt${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
     params.thisHistory = params.thisAltHistory = $(`<div id="history${params.characterName.replace(/[^a-zA-Z]/g, '')}"></div>`);
 
-    Open_Thread_Wrapper.append(`<p>active <span class="ph-arrow-clockwise"></span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
+    Open_Thread_Wrapper.append(`<p>Active <span style="font:serif">âŸ³</span></p>`).on('click', 'p', RefreshParticipatedTracker(params));
     Alt_Thread_Wrapper.append(`<p>${params.altSectionTitle || "communications"}</p>`);
     Closed_Thread_Wrapper.append(`<p>archived</p>`);
 
@@ -61,7 +60,7 @@ function createTrackerElements (params, Current_Script) {
     $(Alt_Thread_Wrapper).append(params.thisAltTracker);
     $(Closed_Thread_Wrapper).append(params.thisHistory);
 
-    $(Current_Script).before(`<center style="font-size: 90%;"> Tracker Code by <span class="ph-pencil"></span> <a href="http://fizzyelf.jcink.net">FizzyElf</a> <span class="ph-paw-print"></span></center>`);
+    $(Current_Script).before(`<span style="font-size: 90%;"> Tracker Code by âœ‘ <a href="http://fizzyelf.jcink.net">FizzyElf</a> ðŸ¾</span>`);
 }
 
 function TrackParticipatedThreads(params = {}) {
@@ -78,7 +77,7 @@ console.log("tracker num ", trackernum)
         params = {};
     }
     if (!params.indicators) {
-        params.indicators = ['<span class="ph-check"></span>', '<span class="ph-arrow-right"></span>'];
+        params.indicators = ['âœ“', 'âž¤'];
     }
     if (!params.lockedMacroIdentifier) {
         params.lockedMacroIdentifier = "[title*=Closed],[class*=lock],[class*=closed]";
