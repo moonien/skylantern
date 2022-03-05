@@ -8,6 +8,6 @@
 */
 
 body.Pages a[href="#wpnavi"]:before,
-body a[href="#slinks"]:before { content:"\ebba"; }
+body a[href="#slinks"]:before { content:"\fcc8"; }
 body.Pages a[href="#wpclose"]:before,
-body a[href="#slclose"]:before { content:"\ea3c"; }
+body a[href="#slclose"]:before { content:"\f642"; }
