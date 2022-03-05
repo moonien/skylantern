@@ -38,57 +38,57 @@ guest,
 #admin,
 .admin,
 .mg-4,
-admin { --mg-color:var(--admin);--mg-rgb:var(--rgb-admin);--icon:"\eb96";--icon-o:"\fcf3"; }
+admin { --mg-color:var(--admin);--mg-rgb:var(--rgb-admin);--icon:"\fcf3";--icon-o:"\f8dc"; }
 #mod,
 .mod,
 .mg-5,
-mod { --mg-color:var(--mod);--mg-rgb:var(--rgb-mod);--icon:"\eb96";--icon-o:"\fb8a"; }
+mod { --mg-color:var(--mod);--mg-rgb:var(--rgb-mod);--icon:"\fcf2";--icon-o:"\f8db"; }
 
 #member,
 .member,
 .mg-6,
-member { --mg-color:var(--member);--mg-rgb:var(--rgb-member);--icon:"\ea01";--icon-o:"\fb87"; }
+member { --mg-color:var(--member);--mg-rgb:var(--rgb-member);--icon:"\fb87";--icon-o:"\f76f"; }
 
 #chili,
 .chili,
 .mg-7,
 chili,
-bchili { --mg-color:var(--chili);--mg-rgb:var(--rgb-chili);--icon:"\eaa2";--icon-o:"\fc28"; }
+bchili { --mg-color:var(--chili);--mg-rgb:var(--rgb-chili);--icon:"\fc28";--icon-o:"\f811"; }
 #turmeric,
 .turmeric,
 .mg-8,
 turmeric,
-bturmeric { --mg-color:var(--turmeric);--mg-rgb:var(--rgb-turmeric);--icon:"\ea07";--icon-o:"\fc39"; }
+bturmeric { --mg-color:var(--turmeric);--mg-rgb:var(--rgb-turmeric);--icon:"\fc39";--icon-o:"\f822"; }
 #ginger,
 .ginger,
 .mg-9,
 ginger,
-bginger { --mg-color:var(--ginger);--mg-rgb:var(--rgb-ginger);--icon:"\ea20";--icon-o:"\fa64"; }
+bginger { --mg-color:var(--ginger);--mg-rgb:var(--rgb-ginger);--icon:"\fc24";--icon-o:"\f80d"; }
 #chives,
 .chives,
 .mg-10,
 chives,
-bchives { --mg-color:var(--chives);--mg-rgb:var(--rgb-chives);--icon:"\ebc3";--icon-o:"\fcb8"; }
+bchives { --mg-color:var(--chives);--mg-rgb:var(--rgb-chives);--icon:"\fcb8";--icon-o:"\f8a0"; }
 #coriander,
 .coriander,
 .mg-11,
 coriander,
-bcoriander { --mg-color:var(--coriander);--mg-rgb:var(--rgb-coriander);--icon:"\ec26";--icon-o:"\fc96"; }
+bcoriander { --mg-color:var(--coriander);--mg-rgb:var(--rgb-coriander);--icon:"\fc96";--icon-o:"\f87f"; }
 #basil,
 .basil,
 .mg-12,
 basil,
-bbasil { --mg-color:var(--basil);--mg-rgb:var(--rgb-basil);--icon:"\ec15";--icon-o:"\fd58"; }
+bbasil { --mg-color:var(--basil);--mg-rgb:var(--rgb-basil);--icon:"\fd58";--icon-o:"\f941"; }
 #cinnamon,
 .cinnamon,
 .mg-21,
 cinnamon,
-bcinnamon { --mg-color:var(--cinnamon);--mg-rgb:var(--rgb-cinnamon);--icon:"\e96f";--icon-o:"\fd55"; }
+bcinnamon { --mg-color:var(--cinnamon);--mg-rgb:var(--rgb-cinnamon);--icon:"\fd55";--icon-o:"\f93e"; }
 
 #inactive,
 .inactive,
 .mg-20,
-inactive { --mg-color:var(--inactive);--mg-rgb:var(--rgb-inactive);--icon:"\eb69";--icon-o:"\fb87"; }
+inactive { --mg-color:var(--inactive);--mg-rgb:var(--rgb-inactive);--icon:"\fb87";--icon-o:"\f76f"; }
 
 
 
