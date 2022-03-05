@@ -23,7 +23,7 @@
 --rgb-cinnamon: 209,160,172;
 }
 
-attention:before { content:"eaae"; }
+attention:before { content:"\fc30"; }
 
 #guest,
 .guest,
@@ -93,10 +93,10 @@ inactive { --mg-color:var(--inactive);--mg-rgb:var(--rgb-inactive);--icon:"\eb69
 
 
 
-.runon-bar div:before { content:"\ea68"; }
+.runon-bar div:before { content:"\f815"; }
 
-.familial { --icon:"\ecdc";--word:"familial"; }
-.platonic { --icon:"\ec9b";--word:"platonic"; }
-.romantic { --icon:"\eb03";--word:"romantic"; }
-.misc { --icon:"\eb19";--word:"misc"; }
-.none { --icon:"\e975";--word:"none"; }
+.familial { --icon:"\fe34";--word:"familial"; }
+.platonic { --icon:"\fb9e";--word:"platonic"; }
+.romantic { --icon:"\fc8f";--word:"romantic"; }
+.misc { --icon:"\fb11";--word:"misc"; }
+.none { --icon:"\f65e";--word:"none"; }
