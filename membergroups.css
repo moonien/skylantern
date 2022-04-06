@@ -24,7 +24,7 @@
 }
 
 attention:before { content:"\fc30"; }
-.cp-warning { content:"\fe5b"!important;font-family:phosphor!important; }
+.cp-warning:before { content:"\fe5b"!important;font-family:phosphor!important; }
 
 #guest,
 .guest,
